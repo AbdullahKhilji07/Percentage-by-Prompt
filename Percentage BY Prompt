@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    hello
+
+
+
+
+    <script src="./JS Class1.js"></script>
+</body>
+</html>
+
+                                                        <!-- JS CODE -->
+
+
+StdObt_Marks  = prompt("enter ur obt marks")
+StdTm_Marks  = prompt("enter ur tm marks")
+res = (StdObt_Marks / StdTm_Marks) *100 ; 
+alert("you have got it " + res + "%")
+console.log("you have got it " + res + "%")
+document.write("you have got it " + res + "%");
